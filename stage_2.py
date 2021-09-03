@@ -1,1 +1,5 @@
-print("hello world")
+print("hello wordl")
+
+def main():
+  print("hello python")
+main()
