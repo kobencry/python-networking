@@ -17,7 +17,9 @@ class A:
 
     def __str__(self):
         return self.__repr__()
+
 main = Main()
 a = A()
 print(main)
 print(a)
+print(main)
