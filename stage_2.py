@@ -1,5 +1,3 @@
-import sys
-
 def main():
   print("hello python")
   
@@ -10,11 +8,7 @@ def off():
   print("status off")
 
 def passed():
-    sys.exit(1)
-
+    pass
 
 if __name__=="__main__":
     main()
-    on()
-    off()
-    passed()
