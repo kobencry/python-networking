@@ -15,8 +15,6 @@ import socket
 # nama layanan     protokol 'tcp'/'udp' 
 
 
-# contoh program:
-
 nama_layanan = [
         'daytime',
         'ftp-data',
