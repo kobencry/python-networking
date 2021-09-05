@@ -8,6 +8,13 @@ import socket
 # aplikasi seperti http atau ftp. protokol yang mendasarinya adalah protokol
 # transport layer seperti tcp atau udp.
 
+# Syntax
+# socket.getservbyname(nama layanan, protokol)
+
+# Parameter Value
+# nama layanan     protokol 'tcp'/'udp' 
+
+
 # contoh program:
 
 nama_layanan = [
