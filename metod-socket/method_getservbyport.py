@@ -12,7 +12,6 @@ import socket
 # Parameter value
 # nomor port dan nama protokol tcp/udp
 
-# contoh program
 
 for port in range(20, 200):
     
@@ -21,6 +20,7 @@ for port in range(20, 200):
     try:
         nama_layanan = socket.getservbyport(port, 'tcp') # menggunakan protokol 'tcp'
         print(f"port: {port}    service: {nama_layanan}")
+
     except OSError:
         pass
         
